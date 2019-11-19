@@ -3,8 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.4",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "nodemon --exec babel-node init.js --delay  2"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,19 +25,5 @@
   "bugs": {
     "url": "https://github.com/LEEJUNB/Retube/issues"
   },
-  "homepage": "https://github.com/LEEJUNB/Retube#readme",
-  "dependencies": {
-    "@babel/core": "^7.7.2",
-    "@babel/node": "^7.7.0",
-    "@babel/preset-env": "^7.7.1",
-    "body-parser": "^1.19.0",
-    "cookie-parser": "^1.4.4",
-    "express": "^4.17.1",
-    "helmet": "^3.21.2",
-    "morgan": "^1.9.1",
-    "pug": "^2.0.4"
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.4"
-  }
+  "homepage": "https://github.com/LEEJUNB/Retube#readme"
 }
